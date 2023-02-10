@@ -30,10 +30,19 @@ h4{
 .hero-banner{
     background-color: #007fff;
     min-height: 70vh;
-    padding: 50px 20px;
+    padding: 20px 20px;
     box-sizing: border-box;
     position: relative;
     overflow: hidden;
+}
+
+.hero-banner .wrapper{
+	height: 464px;
+	position: absolute;
+	top: 50%;
+	margin-top: -232px;
+	left: 50%;
+	margin-left: -480px;
 }
 
 .hero-banner h1,
@@ -59,7 +68,7 @@ h4{
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
-	position: absolute; top: 117px; right: 89px;
+	position: absolute; top: 10%; right: 10%;
     transform: rotate(15deg);
 
 }
