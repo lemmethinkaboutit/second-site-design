@@ -111,11 +111,20 @@ button.cta{
     padding: 20px 30px;
     border-radius: 10px;
     text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
     
 
 
 }
 
+a.cta:active
+button.cta:active{
+    opacity: 0.7;
+
+
+}
 a.cta.alt,
 button.cta.alt{
     background-color: #ffd400;
@@ -193,6 +202,130 @@ nav ul li a{
     display: inline;
     font-weight: 800;
 }
+
+.sep{
+    width: 470px;
+    background-color: #111111;
+    height: 10px;
+    margin: 70px auto ;
+}
+
+.story h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nb-list{
+    width: 470px;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+    background-color: #ededed;
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+}
+
+.nb-list li{
+    height: 70px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+    padding: 6px 20px;
+    box-sizing: border-box;
+}
+
+.nb-list li.blue{background-color: blue;}
+.nb-list li.grey{background-color: grey;}
+.nb-list li.yellow{
+    background-color: yellow;
+    color: #111111;
+}
+
+.nb-list li.red{background-color: red;}
+.nb-list li.pink{background-color: pink;}
+.nb-list li.salmon{background-color: salmon;}
+
+.nb-list li.dragging{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    right: -30px;
+    transform: rotate(6deg);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+
+}
+
+.nb-list li.dragging:after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 54px;
+    height: 60px;
+    background: url(img/hand.png) no-repeat 0 0; 
+    background-size: 100%;
+    bottom: -30px;
+    left: 60%;
+
+}
+
+.gang-img{
+    display: block;
+    margin: 0 auto;
+
+}
+
+footer{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 85px 0 45px;    
+    font-weight: bold;
+
+}
+
+footer a{
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
+.popup{
+    display: none;
+}
+
+/*<div class="more-info" >
+        <div class="wrapper">
+        <h2>Join Our Fan Club</h2>
+        <p>Every week we have <span class="highlight">a party.</span> If you want to join us then join our fan club. Members will else recieve pictures of us in all kinds of shapes and sizes. cool huh?</p>
+        <button class="cta">Sign Me Up</button>
+        </div>
+</div>
+<div class="sep"></div>
+<div class="story" id="story">
+    <ul class="nb-list">
+        <li class="blue">Rock 'n Roll</li>
+        <li class="grey">&nbsp;</li>
+        <li class="yellow dragging">Laughter</li>
+        <li class="red">Square offs</li>
+        <li class="pink">Circuitous Routes</li>
+        <li class="salmon">Trignomentry</li>
+        <li class="blue">Red hats</li>
+        <li class="yellow">Bieng silly</li>
+
+    </ul>
+    <h3>Left: Things we Find Important<br/> 
+        Below: Our Story</h3>
+        <p>Once upon a time there was a group of shapes. They were mostly black and rectangular. They were mean and very serious.</p> 
+        <p>And so they kicked the 3 shapes that didn't conform out of their group, which was called the Right Angled Gang.
+        <p>so these 3 shapes were very sad and find comfort being around eachother. They soon started havving a lot of fun, started rocking and rolling, started being silly, and become the most well-known shapes going in the universe.</p>
+           <p> They even started making fun of squares and rectangles. In what they like to call "square offs"!.
+        </p>
+
+</div>
+<div class="sep">
+
+*/
 
 /* 
 <div class="more-info" >
