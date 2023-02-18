@@ -4,6 +4,7 @@ body, html{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+   
 }
 
 h1{
@@ -306,7 +307,7 @@ footer a{
     display: block;
 }
 
-.popup .blanket{
+.popup.blanket{
 	background-color: rgba(0,0,0,.7);
 	position: absolute;
 	top: 0;
